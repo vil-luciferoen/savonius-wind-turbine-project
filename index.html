@@ -18,30 +18,30 @@
 <style>
   body {
     font-family: 'Inter', sans-serif;
-    background-color: #2E0854; /* Dark Purple */
-    color: #E0D7F1; /* Light text for contrast */
+    background-color: #1E3A8A; /* Dark Blue */
+    color: #E0E7FF; /* Light text for contrast */
   }
 
   header {
-    background: linear-gradient(135deg, #4B0D7C 0%, #2E0854 100%);
+    background: linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%);
   }
 
   .card {
-    background-color: #3A0F7A; /* slightly lighter for contrast */
+    background-color: #1E40AF; /* Slightly lighter blue for cards */
     border-radius: 12px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     padding: 24px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   }
 
   model-viewer {
     border-radius: 12px;
-    background: #4B0D7C; /* card-like background for 3D models */
+    background: #2563EB; /* 3D model background */
   }
 
   select {
@@ -49,8 +49,8 @@
     padding: 10px;
     border: none;
     font-weight: 600;
-    background-color: #4B0D7C;
-    color: #E0D7F1;
+    background-color: #2563EB;
+    color: #E0E7FF;
     cursor: pointer;
   }
 
@@ -59,7 +59,7 @@
   }
 
   .accent {
-    color: #A45EE5; /* Amethyst highlight for headers and roles */
+    color: #A45EE5; /* Amethyst highlight */
     border-color: #A45EE5;
   }
 </style>
@@ -70,7 +70,7 @@
 <!-- Header -->
 <header class="text-center py-20">
   <h1 class="text-5xl font-bold mb-3 text-white">Savonius Wind Turbine Project</h1>
-  <p class="text-purple-200 text-xl">Experimental Investigation of 3D Printed Savonius Wind Turbine</p>
+  <p class="text-blue-200 text-xl">Experimental Investigation of 3D Printed Savonius Wind Turbine</p>
 </header>
 
 <!-- Main Content -->
@@ -79,7 +79,7 @@
   <!-- Project Overview -->
   <section class="card">
     <h2 class="text-3xl font-semibold pl-4 mb-4 accent">Project Overview</h2>
-    <p class="text-purple-100 leading-relaxed">
+    <p class="text-blue-100 leading-relaxed">
       This project explores the design and fabrication of a Savonius wind turbine using additive manufacturing.
       Multiple blade configurations were developed to study the influence of blade twist angles on turbine performance.
       Blades were modeled in CAD and fabricated using PLA material through FDM 3D printing technology.
@@ -129,40 +129,40 @@
   <section class="card">
     <h2 class="text-3xl font-semibold pl-4 mb-6 accent">Project Team</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-      <div class="bg-[#4B0D7C] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
+      <div class="bg-[#2563EB] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
         <h3 class="text-xl font-bold mb-2">Vetrivelan K</h3>
         <div class="font-semibold accent mb-2">Designer</div>
-        <p class="text-purple-100">Responsible for CAD modeling and turbine blade design.</p>
+        <p class="text-blue-100">Responsible for CAD modeling and turbine blade design.</p>
       </div>
-      <div class="bg-[#4B0D7C] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
+      <div class="bg-[#2563EB] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
         <h3 class="text-xl font-bold mb-2">Sanjiv CS</h3>
         <div class="font-semibold accent mb-2">Research & Development</div>
-        <p class="text-purple-100">Focused on research analysis and design improvement concepts.</p>
+        <p class="text-blue-100">Focused on research analysis and design improvement concepts.</p>
       </div>
-      <div class="bg-[#4B0D7C] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
+      <div class="bg-[#2563EB] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
         <h3 class="text-xl font-bold mb-2">Altha Fullah S</h3>
         <div class="font-semibold accent mb-2">Industrial Coordination</div>
-        <p class="text-purple-100">Handled fabrication coordination and project execution support.</p>
+        <p class="text-blue-100">Handled fabrication coordination and project execution support.</p>
       </div>
-      <div class="bg-[#4B0D7C] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
+      <div class="bg-[#2563EB] p-6 rounded-lg text-center shadow hover:scale-105 transition-transform">
         <h3 class="text-xl font-bold mb-2">Karthik S</h3>
         <div class="font-semibold accent mb-2">Batch Member</div>
-        <p class="text-purple-100">Member of the project team involved in overall coordination.</p>
+        <p class="text-blue-100">Member of the project team involved in overall coordination.</p>
       </div>
     </div>
 
-    <div class="bg-[#4B0D7C] rounded-lg p-6 text-center shadow mt-8">
+    <div class="bg-[#2563EB] rounded-lg p-6 text-center shadow mt-8">
       <h3 class="text-xl font-bold mb-2">Project Guide</h3>
       <p class="font-semibold accent mb-2">Mr. M. Prakash</p>
-      <p class="text-purple-100 mb-2">Lecturer – Department of Mechanical Engineering</p>
-      <p class="text-purple-100">Provided academic supervision and technical guidance throughout the project.</p>
+      <p class="text-blue-100 mb-2">Lecturer – Department of Mechanical Engineering</p>
+      <p class="text-blue-100">Provided academic supervision and technical guidance throughout the project.</p>
     </div>
   </section>
 
 </main>
 
 <!-- Footer -->
-<footer class="text-center py-6 border-t border-[#A45EE5] mt-12 text-purple-200">
+<footer class="text-center py-6 border-t border-[#A45EE5] mt-12 text-blue-200">
   <p>Final Year Mechanical Engineering Project</p>
   <p>Interactive project page hosted using GitHub Pages</p>
 </footer>
